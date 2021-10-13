@@ -2,7 +2,7 @@ import React from "react";
 import { Component } from "react/cjs/react.production.min";
 import styled from "styled-components";
 
-import StockImg from "../assets/img/stock.jpg";
+import StockImg from "../../assets/img/stock.jpg";
 
 import { BsCircleFill } from "react-icons/bs";
 

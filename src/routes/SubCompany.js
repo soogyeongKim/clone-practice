@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 
-import SubVisual from "../components/SubVisual";
-import SubMenu from "../components/SuvMenu";
-import Summary from "../components/Summary";
-import History from "../components/History";
-import Ceo from "../components/Ceo";
+import SubVisual from "../components/Sub/SubVisual";
+import SubMenu from "../components/Sub/SuvMenu";
+import Summary from "../components/Sub/Sub1/Summary";
+import History from "../components/Sub/Sub1/History";
+import Ceo from "../components/Sub/Sub1/Ceo";
 
 
 

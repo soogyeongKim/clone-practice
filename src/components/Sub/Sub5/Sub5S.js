@@ -1,31 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Component } from "react/cjs/react.production.min";
 import styled from "styled-components";
 
 
 
-class SubMenu extends Component{
+class Sub5S extends Component{
     render(){
         return(
             <Menu>
-                <h3>기업 소개</h3>
+                <h3>홍보 센터</h3>
                 <MenuUl>
                     <MenuLi>
-                        <a href="/"> 회사 소개</a>
+                        <a href="#/sub5"> 보도 자료</a>
                     </MenuLi>
                     <MenuLi>
-                        <a href="/"> 경영 철학</a>
-                    </MenuLi>
-                    <MenuLi>
-                        <a href="/"> 글로벌 네트워크</a>
-                    </MenuLi>
-                    <MenuLi>
-                        <a href="/"> 오시는 길</a>
+                        <a href="#/sub6"> 공지 사항</a>
                     </MenuLi>
                 </MenuUl>
                 <LineMap>
-                    홈  &gt; 기업 소개 &gt;<strong> 회사 소개</strong>
+                    홈  &gt; 홍보 센터 &gt;<strong> 보도 자료</strong>
                 </LineMap>
             </Menu>
 
@@ -36,8 +29,7 @@ class SubMenu extends Component{
 const Menu = styled.div`
     margin: 0 auto; 
     padding: 15px 0;  
-    text-align: 
-    center; 
+    text-align: center; 
     width: 1200px; 
     position: relative;
 
@@ -59,11 +51,12 @@ const MenuUl = styled.ul`
 `;
 
 const MenuLi = styled.li`
-    width: 298px; 
+    width: 600px; 
     float:left; 
     border: 1px solid #ccc;  
     padding: 20px 0; 
     background: #fff;
+    box-sizing: border-box;
 
     &:hover {
         background: #0065b3; 
@@ -133,4 +126,4 @@ const LineMap = styled.div`
 `;
 
 
-export default SubMenu;
+export default Sub5S;

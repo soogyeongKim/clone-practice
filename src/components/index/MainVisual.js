@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 
-import VImg1 from "../assets/img/v_1.jpg"
-import VImg2 from "../assets/img/v_2.jpg"
-import VImg3 from "../assets/img/v_3.jpg"
-import VImg4 from "../assets/img/v_4.jpg"
-import Pa from "../assets/img/pa.svg";
-import Tri from "../assets/img/tri.png";
+import VImg1 from "../../assets/img/v_1.jpg"
+import VImg2 from "../../assets/img/v_2.jpg"
+import VImg3 from "../../assets/img/v_3.jpg"
+import VImg4 from "../../assets/img/v_4.jpg"
+import Pa from "../../assets/img/pa.svg";
+import Tri from "../../assets/img/tri.png";
 
 class MainVisual extends Component {
     render() {

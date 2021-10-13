@@ -15,22 +15,22 @@ class Navigation extends Component {
           <DropdownMenu>
             <Menu>
               <h3>
-                <a href="/sub1">
+                <a href="#/sub1">
                   기업소개
                 </a>
               </h3>
               <ul>
                 <li>
-                  <a href="/">회사 소개</a>
+                  <a href="#/sub1">회사 소개</a>
                 </li>
                 <li>
-                  <a href="/">경영 철학</a>
+                  <a href="#/sub2">경영 철학</a>
                 </li>
                 <li>
-                  <a href="/">글로벌 네트워크</a>
+                  <a href="#/sub3">글로벌 네트워크</a>
                 </li>
                 <li>
-                  <a href="/">오시는 길</a>
+                  <a href="#/sub4">오시는 길</a>
                 </li>
               </ul>
             </Menu>
@@ -69,16 +69,16 @@ class Navigation extends Component {
             </Menu>
             <Menu>
               <h3>
-                <a href="/">
+                <a href="/#/sub5">
                   홍보센터
                 </a>
               </h3>
               <ul>
                 <li>
-                  <a href="/">보도 자료</a>
+                  <a href="/#/sub5">보도 자료</a>
                 </li>
                 <li>
-                  <a href="/">공지 사항</a>
+                  <a href="/#/sub6">공지 사항</a>
                 </li>
               </ul>
             </Menu>

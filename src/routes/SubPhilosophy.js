@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-import SubVisual from "../components/SubVisual";
-import SubMenu from "../components/SuvMenu";
-import Passion from "../components/Passion";
-import Trust from "../components/Trust";
+import SubVisual from "../components/Sub/SubVisual";
+import SubMenu from "../components/Sub/SuvMenu";
+import Passion from "../components/Sub/Sub2/Passion";
+import Trust from "../components/Sub/Sub2/Trust";
 
 class SubPhilosophy extends React.Component {
   render() {

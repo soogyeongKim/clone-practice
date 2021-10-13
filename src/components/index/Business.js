@@ -2,14 +2,14 @@ import React from "react";
 import { Component } from "react/cjs/react.production.min";
 import styled from "styled-components";
 
-import RndLeft1 from "../assets/img/rnd_s1.jpg";
-import RndLeft2 from "../assets/img/rnd_s2.jpg";
-import RndLeft3 from "../assets/img/rnd_s3.jpg";
-import RndLeft4 from "../assets/img/rnd_s4.jpg";
-import RndMid1 from "../assets/img/rnd_s2_1.jpg";
-import RndMid2 from "../assets/img/rnd_s2_2.jpg";
-import RndMid3 from "../assets/img/rnd_s2_3.jpg";
-import RndMid4 from "../assets/img/rnd_s2_4.jpg";
+import RndLeft1 from "../../assets/img/rnd_s1.jpg";
+import RndLeft2 from "../../assets/img/rnd_s2.jpg";
+import RndLeft3 from "../../assets/img/rnd_s3.jpg";
+import RndLeft4 from "../../assets/img/rnd_s4.jpg";
+import RndMid1 from "../../assets/img/rnd_s2_1.jpg";
+import RndMid2 from "../../assets/img/rnd_s2_2.jpg";
+import RndMid3 from "../../assets/img/rnd_s2_3.jpg";
+import RndMid4 from "../../assets/img/rnd_s2_4.jpg";
 
 
 

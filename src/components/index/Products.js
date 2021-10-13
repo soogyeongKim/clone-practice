@@ -2,12 +2,12 @@ import React from "react";
 import { Component } from "react/cjs/react.production.min";
 import styled from "styled-components";
 
-import Primg1 from "../assets/img/pr_1.jpg";
-import Primg2 from "../assets/img/pr_2.jpg";
-import Primg3 from "../assets/img/pr_3.jpg";
-import Proimg1 from "../assets/img/pro_1.jpg";
-import Proimg2 from "../assets/img/pro_2.jpg";
-import Proimg3 from "../assets/img/pro_3.jpg";
+import Primg1 from "../../assets/img/pr_1.jpg";
+import Primg2 from "../../assets/img/pr_2.jpg";
+import Primg3 from "../../assets/img/pr_3.jpg";
+import Proimg1 from "../../assets/img/pro_1.jpg";
+import Proimg2 from "../../assets/img/pro_2.jpg";
+import Proimg3 from "../../assets/img/pro_3.jpg";
 
 class Products extends Component {
     render(){

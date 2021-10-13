@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 
-import SubVisual from "../components/SubVisual";
-import SubMenu from "../components/SuvMenu";
-import SamWooAdd from "../components/SamWooAdd";
-import SanDongAdd from "../components/SanDongAdd";
-import GlobalInfo from "../components/GlobalInfo";
+import SubVisual from "../components/Sub/SubVisual";
+import SubMenu from "../components/Sub/SuvMenu";
+import SamWooAdd from "../components/Sub/Sub3/SamWooAdd";
+import SanDongAdd from "../components/Sub/Sub3/SanDongAdd";
+import GlobalInfo from "../components/Sub/Sub3/GlobalInfo";
 
 
 class SubGlobal extends React.Component {

@@ -2,7 +2,7 @@ import React from "react";
 import { Component } from "react/cjs/react.production.min";
 import styled from "styled-components";
 
-import CeoImg from "../assets/img/ceoimg.jpg";
+import CeoImg from "../../../assets/img/ceoimg.jpg";
 
 
 class Ceo extends Component {

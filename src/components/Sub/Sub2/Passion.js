@@ -2,7 +2,7 @@ import React from "react";
 import { Component } from "react/cjs/react.production.min";
 import styled from "styled-components";
 
-import Img from "../assets/img/pas.jpg";
+import Img from "../../../assets/img/pas.jpg";
 
 class Passion extends Component{
     render() {

@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
-import MainVisual from "../components/MainVisual";
-import Company from "../components/Company";
-import Product from "../components/Products";
-import Business from "../components/Business";
-import Board from "../components/Board";
-import Stock from "../components/Stock";
+import MainVisual from "../components/index/MainVisual";
+import Company from "../components/index/Company";
+import Product from "../components/index/Products";
+import Business from "../components/index/Business";
+import Board from "../components/index/Board";
+import Stock from "../components/index/Stock";
 
 
 

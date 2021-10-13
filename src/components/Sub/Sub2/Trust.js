@@ -2,7 +2,7 @@ import React from "react";
 import { Component } from "react/cjs/react.production.min";
 import styled from "styled-components";
 
-import Img from "../assets/img/trust.jpg";
+import Img from "../../../assets/img/trust.jpg";
 
 class Trust extends Component{
     render() {

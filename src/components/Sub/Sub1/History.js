@@ -2,7 +2,7 @@ import React from "react";
 import { Component } from "react/cjs/react.production.min";
 import styled from "styled-components";
 
-import HisImg from "../assets/img/his.png";
+import HisImg from "../../../assets/img/his.png";
 
 
 class History extends Component{

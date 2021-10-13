@@ -2,7 +2,8 @@ import React from "react";
 import { Component } from "react/cjs/react.production.min";
 import styled from "styled-components";
 
-import SubImg from "../assets/img/v_sub1.jpg";
+import SubImg from "../../assets/img/v_sub1.jpg";
+
 
 class SubVisual extends Component {
     render () {

@@ -2,10 +2,10 @@ import React from "react";
 import { Component } from "react/cjs/react.production.min";
 import styled from "styled-components";
 
-import IconImg1 from "../assets/img/icon1.jpg";
-import IconImg2 from "../assets/img/icon2.jpg";
-import IconImg3 from "../assets/img/icon3.jpg";
-import IconImg4 from "../assets/img/icon4.jpg";
+import IconImg1 from "../../assets/img/icon1.jpg";
+import IconImg2 from "../../assets/img/icon2.jpg";
+import IconImg3 from "../../assets/img/icon3.jpg";
+import IconImg4 from "../../assets/img/icon4.jpg";
 
 
 class Company extends Component {

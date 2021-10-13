@@ -2,9 +2,9 @@ import React from "react";
 import { Component } from "react/cjs/react.production.min";
 import styled from "styled-components";
 
-import GloImg from "../assets/img/glo_1.jpg";
-import Glo from "../assets/img/glo_2_03.jpg";
-import Oct from "../assets/img/octagon.svg";
+import GloImg from "../../../assets/img/glo_1.jpg";
+import Glo from "../../../assets/img/glo_2_03.jpg";
+import Oct from "../../../assets/img/octagon.svg";
 
 class GlobalInfo extends Component{
     render(){
