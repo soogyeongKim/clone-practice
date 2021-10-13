@@ -18,7 +18,7 @@ class Header extends Component {
                 <li>
                   <a href="/">로그인</a>
                 </li>
-                <li className="last">
+                <li>
                   <a href="/">회원가입</a>
                 </li>
               </ul>
@@ -79,6 +79,8 @@ const HeaderArea = styled.header`
     left: 0;
     top: 0;
   }
+
+ 
 `;
 
 const HeaderInner = styled.div`
@@ -87,7 +89,7 @@ const HeaderInner = styled.div`
 `;
 
 const TopMenu = styled.div`
-  overflow: hidden;
+  overflow: hidden; 
 
   & ul {
     overflow: hidden;
@@ -112,12 +114,17 @@ const TopMenu = styled.div`
 `;
 
 const Logo = styled.h1`
-  margin-top: 15px;
+  margin-top: 20px;
   display: block;
   height: 60px;
   background: url(${logo}) center no-repeat;
   text-indent: -999px;
   overflow: hidden;
+
+  & a{
+    display : block;
+    height : 100%;
+  }
 `;
 
 export default Header;
