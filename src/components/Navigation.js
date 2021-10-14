@@ -2,114 +2,119 @@ import React, { Component } from "react";
 import styled from "styled-components";
 
 class Navigation extends Component {
+
+   hoverScript = () => {
+ 
+  }
+
   render() {
     return (
       <>
-        <Gnb id="gnb">
+        <Gnb>
           <h2 className="hidden">글로벌네비게이션영역</h2>
-          <DropdownMenu className="dropdownmenu">
-            <Menu className="menu">
+          <DropdownMenu>
+            <Menu>
               <h3>
-                <a className="depth1" href="#/sub1_1">
+                <a href="#/sub1">
                   기업소개
                 </a>
               </h3>
               <ul>
                 <li>
-                  <a href="/sub1_1">회사 소개</a>
+                  <a href="#/sub1">회사 소개</a>
                 </li>
                 <li>
-                  <a href="/sub1_2">경영 철학</a>
+                  <a href="#/sub2">경영 철학</a>
                 </li>
                 <li>
-                  <a href="/sub1_3">글로벌 네트워크</a>
+                  <a href="#/sub3">글로벌 네트워크</a>
                 </li>
                 <li>
-                  <a href="sub1/sub1_4.html">오시는 길</a>
+                  <a href="#/sub4">오시는 길</a>
                 </li>
               </ul>
             </Menu>
-            <Menu className="menu">
+            <Menu>
               <h3>
-                <a className="depth1" href="sub2/sub2_1.html">
+                <a href="/">
                   사업분야
                 </a>
               </h3>
               <ul>
                 <li>
-                  <a href="sub2/sub2_1.html">상선/특수선</a>
+                  <a href="/">상선/특수선</a>
                 </li>
                 <li>
-                  <a href="sub2/sub2_2.html">해양/플랜트</a>
+                  <a href="/">해양/플랜트</a>
                 </li>
                 <li>
-                  <a href="sub2/sub2_3.html">건조 실적</a>
+                  <a href="/">건조 실적</a>
                 </li>
               </ul>
             </Menu>
-            <Menu className="menu">
+            <Menu>
               <h3>
-                <a className="depth1" href="sub3/sub3_1.html">
+                <a href="/">
                   기술연구
                 </a>
               </h3>
               <ul>
                 <li>
-                  <a href="sub3/sub3_1.html">연구 소개</a>
+                  <a href="/">연구 소개</a>
                 </li>
                 <li>
-                  <a href="sub3/sub3_2.html">보유 기술</a>
+                  <a href="/">보유 기술</a>
                 </li>
               </ul>
             </Menu>
-            <Menu className="menu">
+            <Menu>
               <h3>
-                <a className="depth1" href="concert/list.php">
+                <a href="/#/sub5">
                   홍보센터
                 </a>
               </h3>
               <ul>
                 <li>
-                  <a href="concert/list.php">보도 자료</a>
+                  <a href="/#/sub5">보도 자료</a>
                 </li>
                 <li>
-                  <a href="greet/list.php">공지 사항</a>
+                  <a href="/#/sub6">공지 사항</a>
                 </li>
               </ul>
             </Menu>
-            <Menu className="menu">
+            <Menu>
               <h3>
-                <a className="depth1" href="sub5/sub5_1.html">
+                <a href="/">
                   투자정보
                 </a>
               </h3>
               <ul>
                 <li>
-                  <a href="sub5/sub5_1.html">주가 정보</a>
+                  <a href="/">주가 정보</a>
                 </li>
                 <li>
-                  <a href="sub5/sub5_2.html">재무 정보</a>
+                  <a href="/">재무 정보</a>
                 </li>
                 <li>
-                  <a href="sub5/sub5_3.html">건의 사항</a>
+                  <a href="/">건의 사항</a>
                 </li>
               </ul>
             </Menu>
-            <Menu className="menu">
+            <Menu>
               <h3>
-                <a className="depth1" href="sub6/sub6_1.html">
+                <a href="/">
                   지속경영
                 </a>
               </h3>
               <ul>
                 <li>
-                  <a href="sub6/sub6_1.html">윤리 경영</a>
+                  <a href="/">윤리 경영</a>
                 </li>
                 <li>
-                  <a href="sub6/sub6_2.html">사회 공헌</a>
+                  <a href="/">사회 공헌</a>
                 </li>
                 <li>
-                  <a href="sub6/sub6_3.html">안전/환경</a>
+                  <a href="/">안전/환경</a>
                 </li>
               </ul>
             </Menu>
@@ -121,13 +126,9 @@ class Navigation extends Component {
 }
 
 const Gnb = styled.nav`
-  /* gnb 공통영역 */
+  overflow : hidden;
 `;
 
-const DropdownMenu = styled.ul`
-  font-size: 22px;
-  font-weight: 600;
-`;
 
 const Menu = styled.li`
   float: left;
@@ -156,6 +157,26 @@ const Menu = styled.li`
     font-size: 18px;
     width: 200px;
   }
+
+  
+  
 `;
 
+
+const DropdownMenu = styled.ul`
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: 600;
+
+  &:hover{
+    & > ${Menu} {
+      & > ul {
+        display:block;
+       
+      }
+    }
+
+  }
+`;
 export default Navigation;

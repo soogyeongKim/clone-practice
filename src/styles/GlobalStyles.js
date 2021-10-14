@@ -19,12 +19,12 @@ time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section{display: block;}
 html, body, #root {
-  width: 100%; overflow: hidden;
+  width: 100%; 
 }
 body{font-family: "나눔고딕", NanumGothic ,sans-serif; font-size: 16px;
   color: #333}
-ol, ul{list-style: none;}
-table{border-collapse: collapse; border-spacing: 0;}
+ol, ul , li{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0; }
 address{font-style: normal}
 a{color: #333; text-decoration: none}
 img{border: 0; vertical-align: top}
@@ -39,5 +39,6 @@ img{border: 0; vertical-align: top}
 
 
 `;
+
 
 export default GlobalStyle;
